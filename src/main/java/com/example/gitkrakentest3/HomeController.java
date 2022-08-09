@@ -16,12 +16,13 @@ public class HomeController {
         ModelAndView mav = new ModelAndView();
         List<String> resultList = new ArrayList<String>();
 
-        resultList.add("AAA");
-        resultList.add("BBB");
-        resultList.add("CCC");
-        resultList.add("DDD");
-        resultList.add("EEE");
-        resultList.add("FFF");
+        resultList.add("AAAA");
+        resultList.add("BBBB");
+        resultList.add("CCCC");
+        resultList.add("DDDD");
+        resultList.add("EEEF");
+        resultList.add("FFFF");
+        resultList.add("TEST");
 
         mav.addObject("resultList",resultList);
         mav.setViewName("content/home");
